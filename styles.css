@@ -1,0 +1,45 @@
+#map {
+    height: 800px;
+    background-color:beige;  
+    
+}
+
+#map::before{
+    content: 'Map is Loading...';
+    font-size: 4em;
+    text-align: center;
+    position: absolute;
+    margin-top: 2em;
+    width: 100%;
+}
+
+#buttonDiv {
+    display: block;
+    text-align: center;
+}
+
+button {
+    color: beige;
+    background-color: darkblue;
+    font-size: 2em;
+    border-radius: 20px;
+    margin: 5px;
+    padding: 20px;
+}
+
+/* p {
+    color: darkblue;
+    text-align: center;
+    font-size: 1.5em;
+   
+}
+
+h1{
+    color: darkblue;
+    text-align: center;
+    font-size: 3em;
+}
+
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+} */
